@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(rgb(51, 50, 50),rgb(22, 21, 21));
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.in-use {
+    border-bottom: 4px solid rgb(199, 199, 0);
+}
+
+.form-btn {
+    color: rgb(199, 199, 0);
+    border-color: rgb(199, 199, 0);
+}
+
+.side-bar {
+    border: solid thin rgb(66, 66, 66);
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.fa {
+    display: block;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: grey;
+}
+
+.icons {
+    margin-top: 20rem;
+}
+
+.brand {
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+    .side-bar {
+        display: none !important;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .sc-brand {
+        display: none;
+    }
+}
+
+
+.home-typo {
+    padding: 8rem 5rem;
+    color: #fff;
+}
+
+.home-typo .heading {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Segoe Script';
+    letter-spacing: 1rem;
+}
+
+.mail input {
+    padding-left: 2rem;
+    border-bottom-right-radius: 5px;
+    border-bottom: 2px solid rgb(199, 199, 0);
+    border-right: 2px solid rgb(199, 199, 0);
+}
+
+.mail button {
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    background: rgb(199, 199, 0);
+    border: none;
+    width: 70px;
+}
+
+.footer {
+    padding-top: 2rem;
+    background: rgba(0, 0, 0, 0.329);
+    backdrop-filter: blur( 10px);
+}

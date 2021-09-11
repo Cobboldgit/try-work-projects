@@ -1,0 +1,121 @@
+
+
+.side-bar {
+    background: linear-gradient(rgb(51, 50, 50),rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    /* border: solid thin rgb(66, 66, 66); */
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.fa {
+    display: block;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: grey;
+}
+
+.icons {
+    margin-top: 20rem;
+}
+
+.brand {
+    font-size: 30px;
+    color: #fff;
+}
+
+.in-use{
+    border-bottom: 4px solid rgb(199, 199, 0);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 576px) {
+    .sc-brand {
+        display: none;
+    }
+}
+
+/* @media (max-width: 576px) {
+    .sc-card {
+        padding-left: 6rem;
+    }
+} */
+
+.free-shipping {
+    height: 35px;
+    width: 145px;
+    background-color: #000;
+    position: absolute;
+    border: none;
+    color: #fff;
+    border-radius: 0.1rem;
+    margin-left: 135px;
+    padding-top: 5px;
+    text-align: center;
+}
+.add-to-cart {
+    background-color: #000;
+    border-radius: 0.1rem;
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-image: linear-gradient(to right,black,rgba(0, 0, 0, 0.205));
+    background-color: #fff;
+}
+
+.mycard {
+    margin-top: 2rem;
+    border: none; 
+}
+
+.mycard .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mycard .card-img, .card-img-top, .card-img-bottom {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 350px;
+}
+
+.underline {
+    height: 5px;
+    width: 30px;
+    background: rgb(199, 199, 0);
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.mail input {
+    padding-left: 2rem;
+    border-bottom-right-radius: 5px;
+    border-bottom: 2px solid rgb(199, 199, 0);
+    border-right: 2px solid rgb(199, 199, 0);
+}
+
+.mail button {
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    background: rgb(199, 199, 0);
+    border: none;
+    width: 70px;
+}
+
+.footer {
+    color: white;
+    padding-top: 2rem;
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur( 10px);
+}
