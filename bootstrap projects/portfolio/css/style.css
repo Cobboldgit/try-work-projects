@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .body-fluid {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+  background: #000;
+  color: rgb(155, 155, 155);
+  margin: 0;
+  padding: 0;
+}
+
+
+.active {
+  background: #000;
+}
+
+.side-body {
+  padding: 0;
+}
+
+.sidebar {
+  background: rgb(36, 36, 36);
+  height: 100vh;
+  position: fixed;
+  width: 200px;
+}
+
+
+.sidebar .profile-pic img {
+  opacity: 10%;
+  cursor: pointer;
+  transition: .5s ease-out;
+}
+
+.sidebar .profile-pic img:hover {
+  opacity: 100%;
+}
+
+.sidebar ul a {
+  text-decoration: none;
+}
+.sidebar ul a li {
+  list-style: none;
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding: 40px 40px;
+  color: rgb(163, 163, 163);
+  transition: 0.4s ease-in;
+}
+
+.sidebar ul a li:hover {
+  background: #000;
+}
+
+.home-heading {
+  margin-top: 8rem;
+  color: rgb(197, 197, 197);
+}
+
+/* .background-image {
+  height: 150vh;
+} */
+/* 
+.background-image img {
+  height: 90%;
+  width: 100%;
+  
+} */
+
+.about-heading h2 {
+  padding: 30px 0px;
+  margin-bottom: 40px;
+  max-width: 450px;
+  font-size: 45px;
+  font-family: "Poor Richard", "Segoe UI";
+  color: rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(141, 141, 141);
+}
+
+.about-text p {
+  font-size: 20px;
+}
+
+.my-skills h2 {
+  font-family: "Poor Richard", "Segoe UI";
+  color: rgb(197, 197, 197);
+  font-size: 40px;
+  margin-top: 2rem;
+}
+
+.progress-bar-body {
+  color: rgb(56, 56, 56);
+}
+
+.progress-bar {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 3rem;
+}
+
+.progress {
+  height: 100%;
+  background: rgb(24, 24, 24);
+  border-radius: 0;
+}
+
+.progress-bar .num-1 {
+  width: 95%;
+}
+.progress-bar .num-2 {
+  width: 80%;
+}
+.progress-bar .num-3 {
+  width: 90%;
+}
+.progress-bar .num-4 {
+  width: 10%;
+}
+.progress-bar .num-5 {
+  width: 15%;
+}
+
+.project-count {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  color: #000;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.reputation h2 {
+  font-family: "Poor Richard", "Segoe UI";
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(197, 197, 197);
+}
+
+.round-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.round-img-body {
+  display: flex;
+}
+
+.round-img-body p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 40%;
+}
+
+.round-img .img-fluid {
+  height: 100px;
+}
+
+.project-heading {
+  font-family: "Poor Richard", "Segoe UI";
+  font-size: 40px;
+  color: rgb(197, 197, 197);
+}
+
+.project-text {
+  font-size: 15px;
+  color: rgb(68, 68, 68);
+}
+
+#project img {
+  cursor: pointer;
+  transition: .4s ease-out;
+}
+
+#project img:hover {
+  opacity: 50%;
+}
+
+.contact-heading {
+  font-family: "Poor Richard", "Segoe UI";
+  font-size: 50px;
+  width: 150px;
+  color: rgb(197, 197, 197);
+  border-bottom: solid thin;
+  padding: 20px 0;
+  margin: 2rem 0;
+  font-size: 18px;
+}
+
+.contact-text span {
+  margin-right: 20px;
+  color: rgb(170, 170, 170);
+  font-size: 19px;
+}
+
+
+.contact-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-fields input {
+  height: 70px;
+  padding-left: 20px;
+  margin-bottom: 2rem;
+  transition: .4s ease;
+}
+
+.contact-fields #submit {
+  width: 250px;
+  padding-left: 0;
+  font-size: 18px;
+  color: #fff;
+  background: rgb(34, 34, 34);
+  border: none;
+}
+
+.contact-fields #submit:hover {
+  background: rgb(46, 46, 46);
+  letter-spacing: 3px;
+}
+
+.footer {
+  padding: 20px 0px;
+  background: rgb(36, 36, 36);
+}
+
+.footer .text {
+  text-align: right;
+  border-right: 2px solid;
+  padding-right: 2rem;
+}
+
+.footer .icon {
+  text-align: left;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+   height: 40vh;
+   width: 100%;
+   z-index: 10;
+   position: relative;
+  }
+
+  .sidebar .profile-pic img {
+   display: none;
+  }
+
+  .sidebar ul a li {
+    padding: 23.55px 0;
+    font-weight: 1;
+  }
+
+  .about-heading h2 {
+    padding: 20px 0px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    font-size: 35px;
+  }
+  
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .my-skills h2 {
+    font-size: 35px;
+    margin-top: 1.5rem;
+  }
+  
+  .round-img-body p {
+    margin-top: 0;
+    margin-left: 2rem;
+    width: 100%;
+  }
+
+  .round-img {
+    min-width: 100px;
+  }
+  
+}
